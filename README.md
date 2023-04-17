@@ -1,5 +1,5 @@
 # Heart-Failure-Prediction-using-Machine-Learning
-    Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, 
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, 
 which accounts for 31% of all deaths worlwide.
 Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
 
@@ -8,12 +8,5 @@ physical inactivity and harmful use of alcohol using population-wide strategies.
 
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension,
 diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
-## Summary of Dataset
-    1)Age: age of the patient [years]. 2)Sex: sex of the patient [M: Male, F: Female]. 3)ChestPainType: chest pain type [TA: Typical Angina,
-    ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]. 4)RestingBP: resting blood pressure [mm Hg]. 5)Cholesterol: serum cholesterol [mm/dl].
-    6)FastingBS: fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]. 7)RestingECG: resting electrocardiogram results [Normal: Normal,
-    ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left 
-    ventricular hypertrophy by Estes' criteria]. 8)MaxHR: maximum heart rate achieved [Numeric value between 60 and 202].
-    9)ExerciseAngina: exercise-induced angina [Y: Yes, N: No]. 10)Oldpeak: oldpeak = ST [Numeric value measured in depression].
-    11)ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping].
-    12)HeartDisease: output class [1: heart disease, 0: Normal].
+## Aim and Objectives
+The aim of this project is to shed light on how to use encoders to encode a dataset to make it numerical and in a certain range, as well as how to scale the data using standard scaler. Most importantly, the use of the multi layer perceptron on a dataset to achieve an accuracy of over 80% and how to tune hyperparameters.
